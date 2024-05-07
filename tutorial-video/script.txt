@@ -1,0 +1,22 @@
+https://elevenlabs.io/app/speech-synthesis
+    Voice: Chris
+    Model: Eleven Turbo v2
+    Stability: 65%
+    Similarity: 75%
+
+0-1.<break time="0.25s" />Hello everyone, <break time="0.25s" /> in this video we will see how to create a Kamelet, <break time="0.25s" />use it in a camel route<break time="0.25s" /> and run it using the "V S code camel extension pack".
+
+2.<break time="0.25s" />First, we need to create a new Kamelet file from the command palette. <break time="1.00s" />
+<break time="0.25s" />We are going to create a source Kamelet that will provide a message according to a predefined timer.
+
+3.<break time="0.25s" />Then we create a new camel route,<break time="0.25s" /> here I am using the Java DSL.
+
+4.<break time="0.25s" />Now we edit the route to use our new Kamelet file and log the message that it is sending.
+<break time="0.25s" />We can use the autocomplete feature to see the Kamelet syntax.
+<break time="0.25s" />Note that the Kamelet ID we are using is the one in the source Kamelet we created before.
+
+5.<break time="0.25s" />Let's see if everything is working by clicking in the "Run Camel application with JBang" button.  <break time="1.00s" />
+Now let's look at the terminal output.  <break time="1.00s" />
+As you can see the route is working, outputting the message sent by the Kamelet.
+
+6.<break time="0.25s" />And that's it! Thanks for watching!
